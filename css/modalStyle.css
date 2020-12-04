@@ -1,0 +1,69 @@
+:root {
+    --main-color: #fa4a73;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: var(--main-color);
+}
+
+.modalForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs *{
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.text {
+    margin-bottom: 25px;
+}
+
+.formBox1 {
+    display: flex;
+}
+
+.titulo{
+    margin-right: 10px;
+    height: 30px;
+    width: 165px;
+}
+
+.categoria {
+    margin-left: 10px;
+    height: 30px;
+    width: 165px;
+}
+
+.formTitle {
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.linkImagem, .linkIdeia {
+    width: 355px;
+    height: 30px;
+}
+
+.bigText {
+    width: 355px;
+}
+
+.buttonsInput {
+    display: flex;
+}

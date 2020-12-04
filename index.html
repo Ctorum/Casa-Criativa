@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/modalStyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <title>Casa Criativa</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#fa4a73">
+        <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#fa4a73">
+    </head>
+    <body>
+        <main>
+            <div class="leftBox">
+                <img src="./img/logo.png" alt="logo" width="300" height="65">
+                <p>Ficar em casa em períodos longos, não deve ser fácil</p>
+                <p>Iremos catalogar ideias,<strong> brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo o que for necessário para tornar esse momento mais interessante</p>
+                <p>Comece clicando em ver ideias para ver as ideias e contribua adicionando a sua ideia.</p>
+                <div class="buttons">
+                    <a href="#" class="linker firstButton">+ Adicionar Ideia</a>
+                    <a href="#" class="linker secondButton">Ver ideias</a>
+                </div>
+                <div class="leftRodape" style="opacity: 0.5;">
+                    <p>Com <div id="emoji">&#10084;</div> Lucas Coronel</p>
+                </div>
+            </div>
+            <div class="rightBox">
+                <div class="box1">
+                    <figure>
+                        <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="img1" class="image" width="64px" height="64px">
+                    </figure>
+                    <div class="boxText">
+                        <p style="font-weight: bold; font-size: 13px;">Cursos de Programação</p>
+                        <p style="opacity: 0.5;">Estudo</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, deserunt. Optio ipsam delectus cumque nulla, aperiam eveniet quibusdam? 
+                            Eveniet voluptatibus veritatis rem itaque fugit aliquid. Libero reprehenderit dolores provident beatae.
+                        </p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <figure>
+                        <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="img2" class="image" width="64px" height="64px">
+                    </figure>
+                    <div class="boxText">
+                        <p style="font-weight: bold; font-size: 13px;">Excercícios</p>
+                        <p style="opacity: 0.5;">Saúde</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, deserunt. Optio ipsam delectus cumque nulla, aperiam eveniet quibusdam? 
+                            Eveniet voluptatibus veritatis rem itaque fugit aliquid. Libero reprehenderit dolores provident beatae.
+                        </p>
+                    </div>
+                </div>
+                <div class="box3">
+                    <figure>
+                        <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg" alt="img3" class="image" width="64px" height="64px">
+                    </figure>
+                    <div class="boxText">
+                        <p style="font-weight: bold; font-size: 13px;">Meditação</p>
+                        <p style="opacity: 0.5;">Mentalidade</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, deserunt. Optio ipsam delectus cumque nulla, aperiam eveniet quibusdam? 
+                            Eveniet voluptatibus veritatis rem itaque fugit aliquid. Libero reprehenderit dolores provident beatae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div id="modal">
+            <form class="modalForm">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <h2 style="font-weight: bold; color: white;">NOVA IDEIA</h2>
+                    <div class="formBox1">
+                        <div class="inputs">
+                            <p class="formTitle">Título da Ideia</p>
+                            <input type="text" class="text titulo">
+                        </div>
+                        <div class="inputs">
+                            <p class="formTitle" style="margin-left: 10px;">Categoria</p>
+                            <input type="text" class="text categoria">
+                        </div>
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="formBox2">
+                        <p class="formTitle">Link da imagem</p>
+                        <input type="text" class="text linkImagem">
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="formBox3">
+                        <p class="formTitle">Digite uma descrição para essa ideia</p>
+                        <textarea cols="30" rows="10" class="text bigText"></textarea>
+                    </div>
+                </div>
+                <div class="formBox4">
+                    <div class="inputs">
+                        <p class="formTitle">Link da ideia</p>
+                        <input type="text" class="text linkIdeia">
+                    </div>
+                </div>
+                <div class="buttonsInput">
+                    <a href="#" class="linker close">Voltar</a>
+                    <a href="#" class="linker">Salvar</a>
+                </div>
+            </form>
+        </div>
+        <script src="./js/modal.js"></script>
+    </body>
+</html>
