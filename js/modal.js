@@ -9,3 +9,4 @@ button.addEventListener('click', function(){
 span.addEventListener('click', function(){
     modal.style.display = "none";
 });
+
